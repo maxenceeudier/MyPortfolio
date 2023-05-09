@@ -1,0 +1,30 @@
+.section
+{
+  position: relative;
+  background: #f0f0f0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  min-height: 100%;
+  color: rgba(0, 0, 0, 0);
+}
+
+.moune
+{
+  position: absolute;
+  overflow: hidden;
+  padding: 20px;
+  right: 45%;
+  top: -110px;
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(145deg, #f0f0f0, #d7d6d6);
+  box-shadow:  10px 10px 30px #bebebe,
+              -10px -10px 30px #ffffff; 
+}
+

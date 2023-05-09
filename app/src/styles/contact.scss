@@ -1,0 +1,54 @@
+.section.five
+{
+  margin-top: 100px;
+  overflow: visible;
+  width: 100%;
+  margin-left: 0%;
+  height: 50vh;
+}
+
+.section.five h1
+{
+  font-size: 150px;
+  font-family: 'Poppins',sans-serif;;
+  color: #f0f0f0;
+  text-shadow: 
+  -5px -5px 8px #ffffff,
+  5px 5px 8px #bebebe;  
+  text-align: center;
+}
+
+.contactContainer
+{
+  overflow: hidden;
+  padding: 20px;
+  margin-left: 20%;
+  z-index: 1;
+  width: 60%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.contact
+{
+  background: linear-gradient(145deg, #f0f0f0, #d7d6d6);
+  box-shadow:  8px 8px 20px #bebebe,
+             -8px -8px 20px #ffffff; 
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(1);
+  transition: transform ease 0.3s;
+}
+
+.contact:hover
+{
+  filter: grayscale(0);
+  transform: scale(1.2);
+}

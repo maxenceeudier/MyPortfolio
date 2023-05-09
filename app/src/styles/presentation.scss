@@ -1,0 +1,43 @@
+.section.two
+{
+  height: 200vh;
+}
+
+.presentationContainer
+{
+  width: 50%;
+  height: 500px;
+  text-align: start;
+  font-family: 'Tillana', sans-serif;
+  padding: 50px;
+  position: absolute;
+  left: 25%;
+  top: 20px;
+  z-index: 5;
+  font-size: 25px;
+  color: #161617;
+  text-shadow: 
+   -2px -2px 2px #ffffff,
+   2px 2px 2px #bebebe;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #f0f0f0, #d7d6d6);
+  box-shadow:  20px 20px 30px #bebebe,
+             -20px -20px 30px #ffffff; 
+}
+
+#textWrite strong
+{
+  font-size: 35px;
+  color: #fff;
+}
+
+#textWrite h1
+{ 
+  font-size: 25px;
+}
+
+
+#textWrite p
+{
+  font-size: 20px;
+}
